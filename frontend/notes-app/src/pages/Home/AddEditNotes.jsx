@@ -1,11 +1,12 @@
 import React from 'react'
+import TagInput from '../../components/Input/TagInput'
 
 const AddEditNotes = () => {
   return (
     <div>
       <div className='flex flex-col gap-2'>
         <label className='text-xs text-slate-400'>Title</label>
-        <input type="text" placeholder='Go to Gym at 5'  className='text-2xl text-slate-950 outline-none'/>
+        <input type="text" placeholder='Enter title |'  className='text-2xl text-slate-400 outline-none'/>
 
       </div>
       <div className='flex flex-col gap-2 mt-4'>
